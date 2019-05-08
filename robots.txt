@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: http://hahgheino.0x7c00.cn/sitemap.xml

